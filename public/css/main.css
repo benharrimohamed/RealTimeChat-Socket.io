@@ -1,0 +1,128 @@
+
+.jumbotron {
+      max-height: 60%;
+      padding-top: 20px ! important;
+      padding-bottom: 20px ! important;
+      background-color: #ECE5DD;
+      overflow: auto;
+      position: relative;
+}
+
+
+.alert {
+
+    font-size: 15px !important;
+    width : auto !important;
+}
+
+.time {
+
+    color : #075E54;
+}
+
+
+.from-me {
+	color : #000;
+	background:#DCF8C6;
+    align-self: flex-end;
+}
+		
+.from-me:before {
+		right:-7px;
+		border-right: 20px solid #DCF8C6;
+		border-bottom-left-radius: 16px 14px;
+		transform:translate(0, -2px);
+	}
+
+.from-me:after {
+		right:-56px;
+		width:26px;
+		background:white;
+		border-bottom-left-radius: 10px;
+		transform:translate(-30px, -2px);
+}
+
+@keyframes example {
+    from {
+        opacity: 0;
+    }
+    to {
+        obacity: 1;
+    }
+
+  }
+
+.bg-green {
+
+    background-color: #128C7E;
+    color: #FFFFFF;
+}
+
+
+
+.border-success {
+    border-color: #128C7E !important;
+}
+
+ p.from-me {
+    margin-left: auto;
+    max-width: 255px;
+    word-wrap: break-word;
+    margin-bottom: 12px;
+    line-height: 24px;
+    position:relative;
+    padding:10px 20px;
+    border-radius:25px;
+    animation-name: example;
+    animation-duration: 1s;
+    
+}
+    
+p:before, p:after {
+      content:"";
+      position:absolute;
+      bottom:-2px;
+      height:20px;
+    }
+
+
+
+.from-them {
+        background:#E5E5EA;
+        color:black;
+}
+            
+.from-them:before {
+            left:-7px;
+            border-left:20px solid #E5E5EA;
+            border-bottom-right-radius: 16px 14px;
+            transform:translate(0, -2px);
+        }
+    
+.from-them:after {
+            left:4px;
+            width:26px;
+            background:white;
+            border-bottom-right-radius: 10px;
+            transform:translate(-30px, -2px);
+        }
+
+p.from-them{
+            margin-left: 0;
+            max-width: 255px;
+            word-wrap: break-word;
+            margin-bottom: 12px;
+            line-height: 24px;
+            position:relative;
+            padding:10px 20px;
+            border-radius:25px;
+            animation-name: example;
+            animation-duration: 1s;
+            
+        }
+    
+    
+
+
+
+
